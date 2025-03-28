@@ -8,8 +8,8 @@ from omegaconf import OmegaConf
 
 from download import _download
 from cp import _cp
-from run import _run_recipe
-from validate import _validate_config
+from .run import _run_recipe
+from .validate import _validate_config
 from ls import (
     _list_recipes,
     _list_recipe_configs,
